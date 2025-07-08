@@ -1,0 +1,72 @@
+/* the asterisk applies the default margin and padding to all elements*/
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+}
+
+body 
+{
+   background-color: #ffbad0;
+   font-weight: 400;
+   font-style: normal;
+}
+
+h1 
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: #d12c56;
+    text-align: center;
+}
+
+h3
+{
+    font-weight: bold;
+    color: #d12c56;
+    text-align: center;
+}
+
+/*how to make a nav bar*/
+
+ul 
+{
+    background-color: #f65286;
+    overflow: hidden; /*keeps the content within the div*/
+    list-style-type: none; /*removes the bullet points*/
+} 
+
+li 
+{
+    float: left;
+}
+
+
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ffaaaa;
+} 
+
+
+img {
+    width: 1000px;
+    length: 1000px;
+    border-radius: 50px;
+    border: 30px solid rgb(255, 121, 121);
+    margin: 10px;
+}
+
+
+
+
+
+
